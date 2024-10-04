@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0px;
+  margin-left: 0px;
+  /* background-image: url("imagenes/fullweb.svg"); */
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+a,
+button {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.container-primercta {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("imagenes/fondoprimercta.svg");
+}
+.container-primercta h3 {
+  text-align: center;
+  margin: 20px;
+  margin-top: 50px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.container-primercta button {
+  color: white;
+  box-shadow: 0 0px 0px 0 rgba(251, 251, 251, 0),
+    0 6px 10px 0 rgba(0, 0, 0, 0.342);
+  background-color: #ff7d53;
+  border-radius: 15px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin: 30px;
+  margin-bottom: 40px;
+  padding: 15px;
+  border: none;
+}
+
+.segundocta {
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #006837;
+  text-align: center;
+  color: white;
+}
+
+.segundocta h2 {
+  margin-inline: 10px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.segundocta button {
+  color: white;
+  box-shadow: 0 0px 0px 0 rgba(251, 251, 251, 0),
+    0 6px 10px 0 rgba(0, 0, 0, 0.342);
+  background-color: #ff7d53;
+  border-radius: 15px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin: 30px;
+  margin-bottom: 40px;
+  padding: 15px;
+  border: none;
+}
+
+.presentacionpj {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: url("imagenes/fondopj.svg");
+}
+.presentacionpj h2 {
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.presentacionpj h4 {
+  font-size: 8px;
+  font-family: Montserrat;
+  font-weight: 500;
+  text-align: center;
+  margin-inline: 25%;
+}
+
+.ultimocta {
+  background-image: url("imagenes/fondoultimaseccion.svg");
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ultimocta h1 {
+  color: white;
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 24px;
+}
+.ultimocta button {
+  color: white;
+  box-shadow: 0 0px 0px 0 rgba(251, 251, 251, 0),
+    0 6px 10px 0 rgba(0, 0, 0, 0.342);
+  background-color: #ff7d53;
+  border-radius: 12px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding: 15px;
+  border: none;
+  margin-top: 40px;
+}
+.ultimocta a {
+  width: 50%;
+}
+@media only screen and (max-width: 500px) {
+  .primerimagendesk {
+    display: none;
+  }
+  .ayudamedioambiente2 {
+    display: none;
+  }
+  .planos2 {
+    display: none;
+  }
+  .Pedro img {
+    margin-top: 50px;
+    width: 50%;
+  }
+  .Emilia img {
+    width: 50%;
+    margin-top: 10px;
+    margin-top: 10px;
+  }
+
+  .Pedro {
+    margin-bottom: 30px;
+  }
+  .Emilia {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .container-primercta h3 {
+    font-size: 36px;
+  }
+  .container-primercta {
+    background-image: url("imagenes/fondoprimerctadesk.svg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+  }
+  .container-primercta a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .container-primercta button {
+    width: 15%;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .primerimagen {
+    display: none;
+  }
+
+  .ayudamedioambiente1 {
+    display: none;
+  }
+  .planos1 {
+    display: none;
+  }
+  .segundocta h2 {
+    margin-top: 70px;
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  .segundocta button {
+    font-size: 25px;
+    width: 20%;
+    margin-bottom: 80px;
+    padding: 15px;
+    border-radius: 25px;
+  }
+  .presentacionpj {
+    background-image: url("imagenes/fondopjdesk.svg");
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 2000px;
+
+    width: 100%;
+  }
+  .Emilia,
+  .Pedro {
+    width: 15%;
+  }
+  .Emilia h2,
+  .Pedro h2 {
+    font-size: 30px;
+    color: #00552d;
+  }
+  .Emilia h4,
+  .Pedro h4 {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    margin-inline: 0px;
+    flex-grow: 2;
+  }
+
+  .ultimocta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("imagenes/fondoultictadesk.svg");
+  }
+  .ultimocta h1 {
+    font-size: 70px;
+    font-weight: 300;
+    width: 60%;
+    margin-top: 100px;
+  }
+  .ultimocta a {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .ultimocta button {
+    width: 20%;
+    padding: 30px;
+
+    font-size: 30px;
+    border-radius: 30px;
+  }
+}
