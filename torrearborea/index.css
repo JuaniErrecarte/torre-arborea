@@ -86,21 +86,15 @@ img {
   border: none;
 }
 
-.presentacionpj {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  background-image: url("imagenes/fondopj.svg");
-}
 .presentacionpj h2 {
+  text-align: center;
   font-size: 16px;
   font-family: Montserrat;
   font-weight: 700;
   margin-bottom: 15px;
 }
 .presentacionpj h4 {
-  font-size: 8px;
+  font-size: 12px;
   font-family: Montserrat;
   font-weight: 500;
   text-align: center;
@@ -109,6 +103,9 @@ img {
 
 .ultimocta {
   background-image: url("imagenes/fondoultimaseccion.svg");
+  background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+  background-position: center; /* Centra la imagen dentro del contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
   width: 100%;
   padding: 30px;
   display: flex;
@@ -158,7 +155,19 @@ img {
     margin-top: 10px;
     margin-top: 10px;
   }
-
+  .presentacionpj {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url("imagenes/fondopj.svg");
+    font-family: Montserrat;
+    font-weight: 500;
+  }
+  .presentacionpj h5 {
+    margin-top: 10px;
+    font-size: 12px;
+  }
   .Pedro {
     margin-bottom: 30px;
   }
@@ -190,6 +199,12 @@ img {
     font-size: 20px;
     padding: 20px;
   }
+  .Pedro h5 {
+    font-size: 12px;
+  }
+  .Pedro h4 {
+    margin-bottom: 10px;
+  }
 
   .primerimagen {
     display: none;
@@ -215,13 +230,22 @@ img {
   }
   .presentacionpj {
     background-image: url("imagenes/fondopjdesk.svg");
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-inline: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     max-width: 2000px;
-
     width: 100%;
+  }
+
+  .presentacionpj h5 {
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
   }
   .Emilia,
   .Pedro {
@@ -240,7 +264,6 @@ img {
     margin-inline: 0px;
     flex-grow: 2;
   }
-
   .ultimocta {
     display: flex;
     flex-direction: column;
@@ -265,7 +288,6 @@ img {
   .ultimocta button {
     width: 20%;
     padding: 30px;
-
     font-size: 30px;
     border-radius: 30px;
   }
